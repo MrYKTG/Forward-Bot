@@ -15,7 +15,7 @@ class Config:
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "")
     DB_NAME = os.environ.get("DB_NAME", "forwardbot")
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '821215952').split()]
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '821215952 6048003536').split()]
 
 
 class temp(object): 
